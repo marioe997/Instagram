@@ -1,14 +1,43 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: 'Arial', sans-serif;
 }
-#encabezado{
+#nav{
 	width: 100%;
 	position: relative;
 	float: left;	
 	height: 60px;
+	border:1px solid rgba(0,0,0,.1);
+
 }
+	.logo{
+		float: left;
+	}
+	.logol{
+		float: left;
+		border-left: 1px solid rgba(0,0,0,1);
+	}
+	.buscador{
+		margin-left: calc(50% - 150px);
+		margin-top: 20px;
+		float: left;
+		height: 20px;
+		border-radius: 2px;
+		border:1px solid rgba(0,0,0,.1);
+		width: 200px;
+	}
+	.infusuario{
+		float: right;
+		
+	}
 #nav img{
-	width: 35px;
+	width: 30px;
+}
+#contenedor{
+	width: 500px;
+	background: yellow;
+	position: relative;
+	margin-left: calc(50% - 250px);
+	margin-top: 50px;
+	float: left;
 }
