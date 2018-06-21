@@ -1,38 +1,54 @@
 *{
 	margin: 0;
 	padding: 0;
+	background-color: rgb(248,248,248);
+}
+img{
+	background-color: rgb(255,255,255);
 }
 #nav{
 	width: 100%;
 	position: relative;
 	float: left;	
-	height: 60px;
+	height: 80px;
 	border:1px solid rgba(0,0,0,.1);
+	background-color: rgb(255,255,255);
+
 
 }
 	.logo{
+		margin-top: 20px;
+		margin-left: calc(50% - 450px);
+		position: fixed;
 		float: left;
+		width: 40px;
 	}
 	.logol{
+		margin-top: 25px;
+		margin-left: calc(50% - 400px);
+		position: fixed;
 		float: left;
 		border-left: 1px solid rgba(0,0,0,1);
+		width: 100px;
 	}
 	.buscador{
-		margin-left: calc(50% - 150px);
-		margin-top: 20px;
+		margin-left: calc(50% - 100px);
+		margin-top: 25px;
 		float: left;
-		height: 20px;
-		border-radius: 2px;
-		border:1px solid rgba(0,0,0,.1);
+		height: 30px;
+		border-radius: 5px;
+		border:1px solid rgba(0,0,0,.2);
 		width: 200px;
 	}
 	.infusuario{
-		float: right;
+		margin-top: 25px;
+		margin-left: calc(50% - 350px);
+		position: fixed;
+		float: left;
+		width: 30px;
 		
 	}
-#nav img{
-	width: 30px;
-}
+
 #contenedor{
 	width: 500px;
 	background: yellow;
