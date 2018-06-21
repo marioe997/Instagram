@@ -1,0 +1,14 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Arial', sans-serif;
+}
+#encabezado{
+	width: 100%;
+	position: relative;
+	float: left;	
+	height: 60px;
+}
+#nav img{
+	width: 35px;
+}
